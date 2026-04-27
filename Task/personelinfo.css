@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #bfccdd;
+}
+
+/* MAIN CONTAINER */
+.container {
+  width: 800px;
+  height: 450px;
+  margin: 50px auto;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 30%;
+  background: linear-gradient(to bottom, #5a4bff, #6c63ff);
+  color: white;
+  padding: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.step span {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.step p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.active span {
+  background: white;
+  color: black;
+}
+
+/* FORM SECTION */
+.form-section {
+  width: 70%;
+  padding: 40px;
+}
+
+.form-section h2 {
+  margin-top: 0;
+}
+
+.form-section p {
+  color: gray;
+  font-size: 14px;
+}
+
+/* INPUTS */
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #0b2a5b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+}
