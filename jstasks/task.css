@@ -1,0 +1,177 @@
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+section{
+    width:500px;
+    height: 500px;
+    /* border: 2px solid black; */
+    margin: auto;
+    background-color: aqua;
+    border-radius: 8px;
+}
+#input {
+    width: 50%;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: red;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    font-style:italic;
+}
+
+.complete-btn{
+    background-color: green;
+    color: beige;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+Background
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Glass Card
+section {
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: white;
+}
+
+Heading
+h1 {
+    position: absolute;
+    top: 40px;
+    font-size: 34px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+Input container
+#input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+Button
+#btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #00f5a0;
+    background: linear-gradient(to right, #00f5a0, #00d9f5);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    transform: scale(1.05);
+}
+
+List
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+Task item
+li {
+    background: rgba(255,255,255,0.15);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+Hover effect
+li:hover {
+    transform: translateY(-3px);
+}
+
+Buttons container
+li div {
+    display: flex;
+    gap: 6px;
+}
+
+Buttons
+.delete-btn {
+    background: #ff4d4d;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background: #e60000;
+}
+
+.complete-btn {
+    background: #4facfe;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.complete-btn:hover {
+    background: #007bff;
+}
+
+Completed task
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+} */
